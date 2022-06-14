@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@master
       - uses: actions/setup-node@v2
         with:
           node-version: "14.x"
@@ -39,5 +39,3 @@ jobs:
           keep_files: true
           user_name: "gravityvi"
           user_email: "ravisawlani04@gmail.com"
-
-
