@@ -2,7 +2,7 @@ name: nightwatch.tests
 on:
   workflow_dispatch:
   pull_request:
-    branches: [main]
+    branches: [master]
 jobs:
   tests: 
     name: 'nightwatch tests'
