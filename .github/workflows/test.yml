@@ -2,7 +2,7 @@ name: nightwatch.tests
 on:
   push:
     branches: 
-    - main
+    - master
 jobs:
   tests: 
     name: 'nightwatch tests'
