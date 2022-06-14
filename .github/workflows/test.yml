@@ -14,10 +14,10 @@ jobs:
         with:
           node-version: "14.x"
       - name: Install dependencies
-      - run: npm install
+        run: npm install
       - name: Run Nightwatch tests
         continue-on-error: false
-      - run: npm test
+        run: npm test
   publishTestResults: 
     name: "Publish test results"
     needs: [tests]
@@ -25,7 +25,7 @@ jobs:
     if: always()
     steps: 
       - name: Download artifacts
-      - uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v2
         id: download
 
       - name: Publish to GH pages
