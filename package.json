@@ -1,0 +1,25 @@
+{
+  "name": "nightwatch-test-results",
+  "version": "1.0.0",
+  "description": "Nightwatch tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch --reporter html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gravityvi/nightwatch-test-results.git"
+  },
+  "author": "Ravi Sawlani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gravityvi/nightwatch-test-results/issues"
+  },
+  "homepage": "https://github.com/gravityvi/nightwatch-test-results#readme",
+  "dependencies": {
+    "nightwatch": "https://github.com/nightwatchjs/nightwatch.git"
+  },
+  "devDependencies": {
+    "geckodriver": "^3.0.1"
+  }
+}
