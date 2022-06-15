@@ -22,18 +22,7 @@ jobs:
         run: |
           mkdir public
           cp -r tests_output/nightwatch-html-report public
-  publishTestResults: 
-    name: "Publish test results"
-    needs: [tests]
-    runs-on: ubuntu-20.04
-    if: always()
-    steps: 
-      - name: Download artifacts
-        uses: actions/download-artifact@v2
-        id: download
-
-      - name: Publish to GH pages
-        if: always()
+      - name: "Publish test results"
         uses: peaceiris/actions-gh-pages@v3.7.3
         with: 
           github_token: $${{ secrets.GITHUB_TOKEN }}
