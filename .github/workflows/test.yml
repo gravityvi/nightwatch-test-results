@@ -32,8 +32,8 @@ jobs:
         if: always()
         uses: peaceiris/actions-gh-pages@v3.7.3
         with: 
-          personal_token: $${{secrets.GITHUB_TOKEN}}
-          publish_dir: 'tests_output/'
+          github_token: $${{secrets.GITHUB_TOKEN}}
+          publish_dir: './tests_output/nightwatch-html-report'
           keep_files: true
           user_name: "gravityvi"
           user_email: "ravisawlani04@gmail.com"
