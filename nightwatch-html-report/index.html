@@ -1,0 +1,1328 @@
+  <head>
+    <title>Nightwatch Reporter</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id="wrap">
+      <div id="main">
+        <section id="navigation">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="https://nightwatchjs.org" target="_blank"><div class="logo"></div></a>
+            </nav>
+          </div>
+        </section>
+        <section id="auxbar">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer">
+                  <div class="auxbox autobox">
+                  </div>
+                </div>
+              </div>
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer align-h-center">
+                  <h1>Nightwatch.js – <strong>Test Report</strong></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="sessions">
+          <div class="row">
+          <div class="col-md-12">
+          <div class="container-fluid">
+            
+                <div id="s1" class="sessionbox">
+                  
+  <div class="sessionbox-indicator indicator-success sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-success">Success</div>
+      </div>
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             nightwatch-examples/duckDuckGo
+          </div>
+        </div>
+        <div id="tabs-s1" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s1-t1-tab" data-bs-toggle="tab" href="#nav-s1-t1" role="tab" aria-controls="nav-s1-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s1-t3-tab" data-bs-toggle="tab" href="#nav-s1-t3" role="tab" aria-controls="nav-s1-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s1-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">PASSED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">1</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">/tests/nightwatch-examples/duckDuckGo.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">1.918 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s1-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session  </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+       <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> },
+       name: <span style="color:#0A0">'duckduckgo example'<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session (1438ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'b07fe94e7b8157323a59cb7a38707e2b'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">'102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})'<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">'/tmp/.com.google.Chrome.UrnDrq'<span style="color:#FFF">
+         },
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">'localhost:39533'<span style="color:#FFF"> },
+         name: <span style="color:#0A0">'duckduckgo example'<span style="color:#FFF">,
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'linux'<span style="color:#FFF">,
+         proxy: {},
+         <span style="color:#0A0">'se:cdp'<span style="color:#FFF">: <span style="color:#0A0">'ws://10.1.0.182:4444/session/b07fe94e7b8157323a59cb7a38707e2b/se/cdp'<span style="color:#FFF">,
+         <span style="color:#0A0">'se:cdpVersion'<span style="color:#FFF">: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:credBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:largeBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:virtualAuthenticators'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/url  </div><div>{ url: <span style="color:#0A0">'https://duckduckgo.com'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/url (567ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#search_form_input_homepage'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (36ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync (29ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#search_form_input_homepage'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (18ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/565e7d00-b498-457a-ae46-7e193b378fce/value  </div><div>{
+     text: <span style="color:#0A0">'Nightwatch.js'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'N'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'g'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">,
+       <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">,
+       <span style="color:#0A0">'c'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'.'<span style="color:#FFF">, <span style="color:#0A0">'j'<span style="color:#FFF">,
+       <span style="color:#0A0">'s'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/565e7d00-b498-457a-ae46-7e193b378fce/value (65ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#search_button_homepage'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (22ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'f2616b3c-a028-4fcc-946d-da0d62843848'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/f2616b3c-a028-4fcc-946d-da0d62843848/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/f2616b3c-a028-4fcc-946d-da0d62843848/click (927ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.results--main'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (43ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync (33ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.results--main'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (25ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/588b703a-a210-4ddd-b3a1-af29cab6a176/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/588b703a-a210-4ddd-b3a1-af29cab6a176/text (121ms)</div><div>{
+     value: <span style="color:#0A0">'All regionsSafe search: moderateAny time\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'https://nightwatchjs.org\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'Nightwatch.js | Node.js powered En...'<span style="color:#FFF">,
+     suppressBase64Data: <span style="color:#A50">true<span style="color:#FFF">
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request DELETE /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b (80ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session  </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+       <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> },
+       name: <span style="color:#0A0">'Ecosia.org Demo'<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session (260ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'ac34bfd3f80b9bd0f2c84a5d387f5933'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">'102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})'<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">'/tmp/.com.google.Chrome.RnzrJy'<span style="color:#FFF">
+         },
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">'localhost:35867'<span style="color:#FFF"> },
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'linux'<span style="color:#FFF">,
+         proxy: {},
+         <span style="color:#0A0">'se:cdp'<span style="color:#FFF">: <span style="color:#0A0">'ws://10.1.0.182:4444/session/ac34bfd3f80b9bd0f2c84a5d387f5933/se/cdp'<span style="color:#FFF">,
+         <span style="color:#0A0">'se:cdpVersion'<span style="color:#FFF">: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:credBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:largeBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:virtualAuthenticators'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/url  </div><div>{ url: <span style="color:#0A0">'https://www.ecosia.org/'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/url (2927ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'body'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (30ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'333060d5-4fad-41d4-951b-dae5d9b5e7ef'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'333060d5-4fad-41d4-951b-dae5d9b5e7ef'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'333060d5-4fad-41d4-951b-dae5d9b5e7ef'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync (28ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/title  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/title (15ms)</div><div>{ value: <span style="color:#0A0">'Ecosia - the search engine that plants trees'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'input[type=search]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (27ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync (32ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'input[type=search]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (17ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/clear  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/clear (47ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/value  </div><div>{
+     text: <span style="color:#0A0">'nightwatch'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'n'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'g'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">,
+       <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">,
+       <span style="color:#0A0">'c'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/value (89ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'button[type=submit]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (25ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync (58ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'button[type=submit]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (28ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/9afd029f-5674-4de9-8ea9-c91834ff3c8a/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/9afd029f-5674-4de9-8ea9-c91834ff3c8a/click (665ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (22ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (455ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (18ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (14ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (17ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (19ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (22ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (39ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (310ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (18ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request DELETE /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933 (100ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session  </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+       <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> },
+       name: <span style="color:#0A0">'To-Do List End-to-End Test'<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session (217ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'da72c56789ca0ad25d6b9ccf742b1b5a'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">'102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})'<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">'/tmp/.com.google.Chrome.74p5kE'<span style="color:#FFF">
+         },
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">'localhost:39515'<span style="color:#FFF"> },
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'linux'<span style="color:#FFF">,
+         proxy: {},
+         <span style="color:#0A0">'se:cdp'<span style="color:#FFF">: <span style="color:#0A0">'ws://10.1.0.182:4444/session/da72c56789ca0ad25d6b9ccf742b1b5a/se/cdp'<span style="color:#FFF">,
+         <span style="color:#0A0">'se:cdpVersion'<span style="color:#FFF">: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:credBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:largeBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:virtualAuthenticators'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/url  </div><div>{ url: <span style="color:#0A0">'https://todo-vue3-vite.netlify.app/'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/url (673ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#new-todo-input'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (21ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'0b2c8001-cb3b-4466-bbe1-27a879daf2e4'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/0b2c8001-cb3b-4466-bbe1-27a879daf2e4/value  </div><div>{
+     text: <span style="color:#0A0">'what is nightwatch?'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">' '<span style="color:#FFF">,
+       <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'s'<span style="color:#FFF">, <span style="color:#0A0">' '<span style="color:#FFF">, <span style="color:#0A0">'n'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">,
+       <span style="color:#0A0">'g'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">,
+       <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'c'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'?'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/0b2c8001-cb3b-4466-bbe1-27a879daf2e4/value (74ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'form button[type="submit"]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (18ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5f6c441-1f24-43f6-840f-a68f4b3f33db'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/b5f6c441-1f24-43f6-840f-a68f4b3f33db/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/b5f6c441-1f24-43f6-840f-a68f4b3f33db/click (56ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#todo-list ul li'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (28ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'72dfc8d8-edde-4b1f-983b-93532d09b43f'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'5ad4715c-73fe-435d-8ec4-46a738e66d90'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'0db7b931-f9eb-4e0f-9f43-54e489c9caaa'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'6aa3fadc-7908-40f6-96a5-f08350cf6484'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'643ebb9c-8941-4cd5-98a9-6d0981e74985'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#todo-list ul li'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (13ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'72dfc8d8-edde-4b1f-983b-93532d09b43f'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'5ad4715c-73fe-435d-8ec4-46a738e66d90'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'0db7b931-f9eb-4e0f-9f43-54e489c9caaa'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'6aa3fadc-7908-40f6-96a5-f08350cf6484'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'643ebb9c-8941-4cd5-98a9-6d0981e74985'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/text (23ms)</div><div>{
+     value: <span style="color:#0A0">'new taskwhat is nightwatch?\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'Edit\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'New Taskwhat Is Nightwatch?\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'Delete\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'New Taskwhat Is Nightwatch?'<span style="color:#FFF">
+  }</span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/element  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'input[type="checkbox"]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/element (16ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'29a212c4-116e-462d-8848-5507d6b48f3d'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/29a212c4-116e-462d-8848-5507d6b48f3d/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/29a212c4-116e-462d-8848-5507d6b48f3d/click (50ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#todo-list ul li input:checked'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (17ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'50692b5c-c57b-4992-ac56-f4c4e2b2cfcb'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'13019420-99b9-4722-a8dc-e221ee871a3b'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'29a212c4-116e-462d-8848-5507d6b48f3d'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request DELETE /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a (94ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s0ac1" aria-expanded="false" aria-controls="s0ac1">
+          Search Nightwatch.js and check results
+        </button>
+      </h5>
+    </div>
+
+    <div id="s0ac1" class="collapse" aria-labelledby="s0ah1" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Element &lt;#search_form_input_homepage&gt; was visible after 69 milliseconds.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element &lt;.results--main&gt; is visible (78ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element &lt;.results--main&gt; contains text &#39;Nightwatch.js&#39; (151ms)</div></pre></div></div>
+
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                <div id="s2" class="sessionbox">
+                   
+  <div class="sessionbox-indicator indicator-failed sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-failed">Failure</div>
+      </div> 
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             nightwatch-examples/ecosia
+          </div>
+        </div>
+        <div id="tabs-s2" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s2-t1-tab" data-bs-toggle="tab" href="#nav-s2-t1" role="tab" aria-controls="nav-s2-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s2-t3-tab" data-bs-toggle="tab" href="#nav-s2-t3" role="tab" aria-controls="nav-s2-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s2-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">FAILED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">1</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">1</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">/tests/nightwatch-examples/ecosia.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">6.533 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s2-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session  </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+       <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> },
+       name: <span style="color:#0A0">'duckduckgo example'<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session (1438ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'b07fe94e7b8157323a59cb7a38707e2b'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">'102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})'<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">'/tmp/.com.google.Chrome.UrnDrq'<span style="color:#FFF">
+         },
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">'localhost:39533'<span style="color:#FFF"> },
+         name: <span style="color:#0A0">'duckduckgo example'<span style="color:#FFF">,
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'linux'<span style="color:#FFF">,
+         proxy: {},
+         <span style="color:#0A0">'se:cdp'<span style="color:#FFF">: <span style="color:#0A0">'ws://10.1.0.182:4444/session/b07fe94e7b8157323a59cb7a38707e2b/se/cdp'<span style="color:#FFF">,
+         <span style="color:#0A0">'se:cdpVersion'<span style="color:#FFF">: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:credBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:largeBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:virtualAuthenticators'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/url  </div><div>{ url: <span style="color:#0A0">'https://duckduckgo.com'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/url (567ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#search_form_input_homepage'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (36ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync (29ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#search_form_input_homepage'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (18ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/565e7d00-b498-457a-ae46-7e193b378fce/value  </div><div>{
+     text: <span style="color:#0A0">'Nightwatch.js'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'N'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'g'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">,
+       <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">,
+       <span style="color:#0A0">'c'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'.'<span style="color:#FFF">, <span style="color:#0A0">'j'<span style="color:#FFF">,
+       <span style="color:#0A0">'s'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/565e7d00-b498-457a-ae46-7e193b378fce/value (65ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#search_button_homepage'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (22ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'f2616b3c-a028-4fcc-946d-da0d62843848'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/f2616b3c-a028-4fcc-946d-da0d62843848/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/f2616b3c-a028-4fcc-946d-da0d62843848/click (927ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.results--main'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (43ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync (33ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.results--main'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (25ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/588b703a-a210-4ddd-b3a1-af29cab6a176/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/588b703a-a210-4ddd-b3a1-af29cab6a176/text (121ms)</div><div>{
+     value: <span style="color:#0A0">'All regionsSafe search: moderateAny time\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'https://nightwatchjs.org\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'Nightwatch.js | Node.js powered En...'<span style="color:#FFF">,
+     suppressBase64Data: <span style="color:#A50">true<span style="color:#FFF">
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request DELETE /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b (80ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session  </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+       <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> },
+       name: <span style="color:#0A0">'Ecosia.org Demo'<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session (260ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'ac34bfd3f80b9bd0f2c84a5d387f5933'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">'102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})'<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">'/tmp/.com.google.Chrome.RnzrJy'<span style="color:#FFF">
+         },
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">'localhost:35867'<span style="color:#FFF"> },
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'linux'<span style="color:#FFF">,
+         proxy: {},
+         <span style="color:#0A0">'se:cdp'<span style="color:#FFF">: <span style="color:#0A0">'ws://10.1.0.182:4444/session/ac34bfd3f80b9bd0f2c84a5d387f5933/se/cdp'<span style="color:#FFF">,
+         <span style="color:#0A0">'se:cdpVersion'<span style="color:#FFF">: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:credBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:largeBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:virtualAuthenticators'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/url  </div><div>{ url: <span style="color:#0A0">'https://www.ecosia.org/'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/url (2927ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'body'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (30ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'333060d5-4fad-41d4-951b-dae5d9b5e7ef'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'333060d5-4fad-41d4-951b-dae5d9b5e7ef'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'333060d5-4fad-41d4-951b-dae5d9b5e7ef'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync (28ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/title  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/title (15ms)</div><div>{ value: <span style="color:#0A0">'Ecosia - the search engine that plants trees'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'input[type=search]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (27ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync (32ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'input[type=search]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (17ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/clear  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/clear (47ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/value  </div><div>{
+     text: <span style="color:#0A0">'nightwatch'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'n'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'g'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">,
+       <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">,
+       <span style="color:#0A0">'c'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/value (89ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'button[type=submit]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (25ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync (58ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'button[type=submit]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (28ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/9afd029f-5674-4de9-8ea9-c91834ff3c8a/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/9afd029f-5674-4de9-8ea9-c91834ff3c8a/click (665ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (22ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (455ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (18ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (14ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (17ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (19ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (22ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (39ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (310ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (18ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request DELETE /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933 (100ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session  </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+       <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> },
+       name: <span style="color:#0A0">'To-Do List End-to-End Test'<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session (217ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'da72c56789ca0ad25d6b9ccf742b1b5a'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">'102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})'<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">'/tmp/.com.google.Chrome.74p5kE'<span style="color:#FFF">
+         },
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">'localhost:39515'<span style="color:#FFF"> },
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'linux'<span style="color:#FFF">,
+         proxy: {},
+         <span style="color:#0A0">'se:cdp'<span style="color:#FFF">: <span style="color:#0A0">'ws://10.1.0.182:4444/session/da72c56789ca0ad25d6b9ccf742b1b5a/se/cdp'<span style="color:#FFF">,
+         <span style="color:#0A0">'se:cdpVersion'<span style="color:#FFF">: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:credBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:largeBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:virtualAuthenticators'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/url  </div><div>{ url: <span style="color:#0A0">'https://todo-vue3-vite.netlify.app/'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/url (673ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#new-todo-input'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (21ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'0b2c8001-cb3b-4466-bbe1-27a879daf2e4'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/0b2c8001-cb3b-4466-bbe1-27a879daf2e4/value  </div><div>{
+     text: <span style="color:#0A0">'what is nightwatch?'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">' '<span style="color:#FFF">,
+       <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'s'<span style="color:#FFF">, <span style="color:#0A0">' '<span style="color:#FFF">, <span style="color:#0A0">'n'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">,
+       <span style="color:#0A0">'g'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">,
+       <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'c'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'?'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/0b2c8001-cb3b-4466-bbe1-27a879daf2e4/value (74ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'form button[type="submit"]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (18ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5f6c441-1f24-43f6-840f-a68f4b3f33db'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/b5f6c441-1f24-43f6-840f-a68f4b3f33db/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/b5f6c441-1f24-43f6-840f-a68f4b3f33db/click (56ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#todo-list ul li'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (28ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'72dfc8d8-edde-4b1f-983b-93532d09b43f'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'5ad4715c-73fe-435d-8ec4-46a738e66d90'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'0db7b931-f9eb-4e0f-9f43-54e489c9caaa'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'6aa3fadc-7908-40f6-96a5-f08350cf6484'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'643ebb9c-8941-4cd5-98a9-6d0981e74985'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#todo-list ul li'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (13ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'72dfc8d8-edde-4b1f-983b-93532d09b43f'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'5ad4715c-73fe-435d-8ec4-46a738e66d90'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'0db7b931-f9eb-4e0f-9f43-54e489c9caaa'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'6aa3fadc-7908-40f6-96a5-f08350cf6484'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'643ebb9c-8941-4cd5-98a9-6d0981e74985'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/text (23ms)</div><div>{
+     value: <span style="color:#0A0">'new taskwhat is nightwatch?\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'Edit\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'New Taskwhat Is Nightwatch?\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'Delete\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'New Taskwhat Is Nightwatch?'<span style="color:#FFF">
+  }</span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/element  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'input[type="checkbox"]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/element (16ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'29a212c4-116e-462d-8848-5507d6b48f3d'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/29a212c4-116e-462d-8848-5507d6b48f3d/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/29a212c4-116e-462d-8848-5507d6b48f3d/click (50ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#todo-list ul li input:checked'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (17ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'50692b5c-c57b-4992-ac56-f4c4e2b2cfcb'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'13019420-99b9-4722-a8dc-e221ee871a3b'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'29a212c4-116e-462d-8848-5507d6b48f3d'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request DELETE /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a (94ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+  
+  <div class="card-header" id="h2">
+    <h5 class="mb-0">
+      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#s1ac1" aria-expanded="true" aria-controls="s1ac1">
+        Demo test ecosia.org
+      </button>
+    </h5>
+  </div>
+  <div id="s1ac1" class="collapse-show collapse show" aria-labelledby="s1ah1" data-bs-parent="#sessionfull-accordion">
+    <div class="card-body"><pre><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Element &lt;body&gt; was visible after 60 milliseconds.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if the page title contains &#39;Ecosia&#39; (16ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element &lt;input[type=search]&gt; is visible (62ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Testing if element &lt;button[type=submit]&gt; is visible (86ms)</div><div class="code-sessionfull-failure">✖ Testing if element &lt;.mainline-results&gt; contains text &#39;Nightwatch.js&#39; in 5000ms - expected &#34;contains text &#39;Nightwatch.js&#39;&#34; but got: &#34;element could not be located&#34; (5449ms)
+    at DescribeInstance.&lt;anonymous&gt; (/home/runner/work/nightwatch-test-results/nightwatch-test-results/tests/nightwatch-examples/ecosia.js:13:15)</div></pre></div>
+  </div>
+  
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                <div id="s3" class="sessionbox">
+                  
+  <div class="sessionbox-indicator indicator-success sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-success">Success</div>
+      </div>
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             nightwatch-examples/vueTodoList
+          </div>
+        </div>
+        <div id="tabs-s3" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s3-t1-tab" data-bs-toggle="tab" href="#nav-s3-t1" role="tab" aria-controls="nav-s3-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s3-t3-tab" data-bs-toggle="tab" href="#nav-s3-t3" role="tab" aria-controls="nav-s3-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s3-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">PASSED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">1</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">/tests/nightwatch-examples/vueTodoList.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">1.014 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s3-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session  </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+       <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> },
+       name: <span style="color:#0A0">'duckduckgo example'<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session (1438ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'b07fe94e7b8157323a59cb7a38707e2b'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">'102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})'<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">'/tmp/.com.google.Chrome.UrnDrq'<span style="color:#FFF">
+         },
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">'localhost:39533'<span style="color:#FFF"> },
+         name: <span style="color:#0A0">'duckduckgo example'<span style="color:#FFF">,
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'linux'<span style="color:#FFF">,
+         proxy: {},
+         <span style="color:#0A0">'se:cdp'<span style="color:#FFF">: <span style="color:#0A0">'ws://10.1.0.182:4444/session/b07fe94e7b8157323a59cb7a38707e2b/se/cdp'<span style="color:#FFF">,
+         <span style="color:#0A0">'se:cdpVersion'<span style="color:#FFF">: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:credBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:largeBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:virtualAuthenticators'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/url  </div><div>{ url: <span style="color:#0A0">'https://duckduckgo.com'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/url (567ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#search_form_input_homepage'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (36ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync (29ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#search_form_input_homepage'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (18ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'565e7d00-b498-457a-ae46-7e193b378fce'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/565e7d00-b498-457a-ae46-7e193b378fce/value  </div><div>{
+     text: <span style="color:#0A0">'Nightwatch.js'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'N'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'g'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">,
+       <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">,
+       <span style="color:#0A0">'c'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'.'<span style="color:#FFF">, <span style="color:#0A0">'j'<span style="color:#FFF">,
+       <span style="color:#0A0">'s'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/565e7d00-b498-457a-ae46-7e193b378fce/value (65ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#search_button_homepage'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (22ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'f2616b3c-a028-4fcc-946d-da0d62843848'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/f2616b3c-a028-4fcc-946d-da0d62843848/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/f2616b3c-a028-4fcc-946d-da0d62843848/click (927ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.results--main'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (43ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/execute/sync (33ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.results--main'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/elements (25ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'588b703a-a210-4ddd-b3a1-af29cab6a176'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/588b703a-a210-4ddd-b3a1-af29cab6a176/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b/element/588b703a-a210-4ddd-b3a1-af29cab6a176/text (121ms)</div><div>{
+     value: <span style="color:#0A0">'All regionsSafe search: moderateAny time\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'https://nightwatchjs.org\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'Nightwatch.js | Node.js powered En...'<span style="color:#FFF">,
+     suppressBase64Data: <span style="color:#A50">true<span style="color:#FFF">
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request DELETE /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /wd/hub/session/b07fe94e7b8157323a59cb7a38707e2b (80ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session  </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+       <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> },
+       name: <span style="color:#0A0">'Ecosia.org Demo'<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session (260ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'ac34bfd3f80b9bd0f2c84a5d387f5933'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">'102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})'<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">'/tmp/.com.google.Chrome.RnzrJy'<span style="color:#FFF">
+         },
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">'localhost:35867'<span style="color:#FFF"> },
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'linux'<span style="color:#FFF">,
+         proxy: {},
+         <span style="color:#0A0">'se:cdp'<span style="color:#FFF">: <span style="color:#0A0">'ws://10.1.0.182:4444/session/ac34bfd3f80b9bd0f2c84a5d387f5933/se/cdp'<span style="color:#FFF">,
+         <span style="color:#0A0">'se:cdpVersion'<span style="color:#FFF">: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:credBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:largeBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:virtualAuthenticators'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/url  </div><div>{ url: <span style="color:#0A0">'https://www.ecosia.org/'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/url (2927ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'body'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (30ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'333060d5-4fad-41d4-951b-dae5d9b5e7ef'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'333060d5-4fad-41d4-951b-dae5d9b5e7ef'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'333060d5-4fad-41d4-951b-dae5d9b5e7ef'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync (28ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/title  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/title (15ms)</div><div>{ value: <span style="color:#0A0">'Ecosia - the search engine that plants trees'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'input[type=search]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (27ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync (32ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'input[type=search]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (17ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5d0ced9-ce9f-4334-bd1f-95166abbe68a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/clear  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/clear (47ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/value  </div><div>{
+     text: <span style="color:#0A0">'nightwatch'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'n'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'g'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">,
+       <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">,
+       <span style="color:#0A0">'c'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/b5d0ced9-ce9f-4334-bd1f-95166abbe68a/value (89ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'button[type=submit]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (25ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync  </div><div>{
+     script: <span style="color:#0A0">'return (function(){return (function(){var k=this||self;function aa(a){return"string"==typeof a}function ba(a,b){a=a.split(".");var c=k;a[0]in c||"undefined"==typeof c.execScript||c.execScript("var "+a... (44027 characters)'<span style="color:#FFF">,
+     args: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">,
+         ELEMENT: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/execute/sync (58ms)</div><div>{ value: <span style="color:#A50">true<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'button[type=submit]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (28ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'9afd029f-5674-4de9-8ea9-c91834ff3c8a'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/9afd029f-5674-4de9-8ea9-c91834ff3c8a/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/element/9afd029f-5674-4de9-8ea9-c91834ff3c8a/click (665ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (22ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (455ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (18ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (14ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (17ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (19ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (22ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (39ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (310ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'.mainline-results'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933/elements (18ms)</div><div>{ value: [] }</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request DELETE /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /wd/hub/session/ac34bfd3f80b9bd0f2c84a5d387f5933 (100ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session  </div><div>{
+     desiredCapabilities: {
+       browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+       <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> },
+       name: <span style="color:#0A0">'To-Do List End-to-End Test'<span style="color:#FFF">
+     },
+     capabilities: {
+       alwaysMatch: {
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { args: [ <span style="color:#0A0">'--headless'<span style="color:#FFF"> ], w3c: <span style="color:#A50">true<span style="color:#FFF"> }
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session (217ms)</div><div>{
+     value: {
+       sessionId: <span style="color:#0A0">'da72c56789ca0ad25d6b9ccf742b1b5a'<span style="color:#FFF">,
+       capabilities: {
+         acceptInsecureCerts: <span style="color:#A50">false<span style="color:#FFF">,
+         browserName: <span style="color:#0A0">'chrome'<span style="color:#FFF">,
+         browserVersion: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         chrome: {
+           chromedriverVersion: <span style="color:#0A0">'102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})'<span style="color:#FFF">,
+           userDataDir: <span style="color:#0A0">'/tmp/.com.google.Chrome.74p5kE'<span style="color:#FFF">
+         },
+         <span style="color:#0A0">'goog:chromeOptions'<span style="color:#FFF">: { debuggerAddress: <span style="color:#0A0">'localhost:39515'<span style="color:#FFF"> },
+         networkConnectionEnabled: <span style="color:#A50">false<span style="color:#FFF">,
+         pageLoadStrategy: <span style="color:#0A0">'normal'<span style="color:#FFF">,
+         platformName: <span style="color:#0A0">'linux'<span style="color:#FFF">,
+         proxy: {},
+         <span style="color:#0A0">'se:cdp'<span style="color:#FFF">: <span style="color:#0A0">'ws://10.1.0.182:4444/session/da72c56789ca0ad25d6b9ccf742b1b5a/se/cdp'<span style="color:#FFF">,
+         <span style="color:#0A0">'se:cdpVersion'<span style="color:#FFF">: <span style="color:#0A0">'102.0.5005.61'<span style="color:#FFF">,
+         setWindowRect: <span style="color:#A50">true<span style="color:#FFF">,
+         strictFileInteractability: <span style="color:#A50">false<span style="color:#FFF">,
+         timeouts: { implicit: <span style="color:#A50">0<span style="color:#FFF">, pageLoad: <span style="color:#A50">300000<span style="color:#FFF">, script: <span style="color:#A50">30000<span style="color:#FFF"> },
+         unhandledPromptBehavior: <span style="color:#0A0">'dismiss and notify'<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:credBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:extension:largeBlob'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">,
+         <span style="color:#0A0">'webauthn:virtualAuthenticators'<span style="color:#FFF">: <span style="color:#A50">true<span style="color:#FFF">
+       }
+     }
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/url  </div><div>{ url: <span style="color:#0A0">'https://todo-vue3-vite.netlify.app/'<span style="color:#FFF"> }</span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/url (673ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#new-todo-input'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (21ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'0b2c8001-cb3b-4466-bbe1-27a879daf2e4'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/0b2c8001-cb3b-4466-bbe1-27a879daf2e4/value  </div><div>{
+     text: <span style="color:#0A0">'what is nightwatch?'<span style="color:#FFF">,
+     value: [
+       <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">' '<span style="color:#FFF">,
+       <span style="color:#0A0">'i'<span style="color:#FFF">, <span style="color:#0A0">'s'<span style="color:#FFF">, <span style="color:#0A0">' '<span style="color:#FFF">, <span style="color:#0A0">'n'<span style="color:#FFF">, <span style="color:#0A0">'i'<span style="color:#FFF">,
+       <span style="color:#0A0">'g'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'w'<span style="color:#FFF">, <span style="color:#0A0">'a'<span style="color:#FFF">,
+       <span style="color:#0A0">'t'<span style="color:#FFF">, <span style="color:#0A0">'c'<span style="color:#FFF">, <span style="color:#0A0">'h'<span style="color:#FFF">, <span style="color:#0A0">'?'<span style="color:#FFF">
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/0b2c8001-cb3b-4466-bbe1-27a879daf2e4/value (74ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'form button[type="submit"]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (18ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'b5f6c441-1f24-43f6-840f-a68f4b3f33db'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/b5f6c441-1f24-43f6-840f-a68f4b3f33db/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/b5f6c441-1f24-43f6-840f-a68f4b3f33db/click (56ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#todo-list ul li'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (28ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'72dfc8d8-edde-4b1f-983b-93532d09b43f'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'5ad4715c-73fe-435d-8ec4-46a738e66d90'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'0db7b931-f9eb-4e0f-9f43-54e489c9caaa'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'6aa3fadc-7908-40f6-96a5-f08350cf6484'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'643ebb9c-8941-4cd5-98a9-6d0981e74985'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#todo-list ul li'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (13ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'72dfc8d8-edde-4b1f-983b-93532d09b43f'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'5ad4715c-73fe-435d-8ec4-46a738e66d90'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'0db7b931-f9eb-4e0f-9f43-54e489c9caaa'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'6aa3fadc-7908-40f6-96a5-f08350cf6484'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'643ebb9c-8941-4cd5-98a9-6d0981e74985'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request GET /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/text  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 GET /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/text (23ms)</div><div>{
+     value: <span style="color:#0A0">'new taskwhat is nightwatch?\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'Edit\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'New Taskwhat Is Nightwatch?\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'Delete\n'<span style="color:#FFF"> +
+       <span style="color:#0A0">'New Taskwhat Is Nightwatch?'<span style="color:#FFF">
+  }</span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/element  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'input[type="checkbox"]'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/643ebb9c-8941-4cd5-98a9-6d0981e74985/element (16ms)</div><div>{
+     value: {
+       <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'29a212c4-116e-462d-8848-5507d6b48f3d'<span style="color:#FFF">
+     }
+  }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/29a212c4-116e-462d-8848-5507d6b48f3d/click  </div><div>{}</div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/element/29a212c4-116e-462d-8848-5507d6b48f3d/click (50ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements  </div><div>{ using: <span style="color:#0A0">'css selector'<span style="color:#FFF">, value: <span style="color:#0A0">'#todo-list ul li input:checked'<span style="color:#FFF"> }</span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 POST /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a/elements (17ms)</div><div>{
+     value: [
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'50692b5c-c57b-4992-ac56-f4c4e2b2cfcb'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'13019420-99b9-4722-a8dc-e221ee871a3b'<span style="color:#FFF">
+       },
+       {
+         <span style="color:#0A0">'element-6066-11e4-a52e-4f735466cecf'<span style="color:#FFF">: <span style="color:#0A0">'29a212c4-116e-462d-8848-5507d6b48f3d'<span style="color:#FFF">
+       }
+     ]
+  }</span></span></span></span></span></span></span></span></span></span></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Request DELETE /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a  </div><div><span style="color:#0A0">''<span style="color:#FFF"></span></span></div><div style="margin-left: -15px;margin-top: 10px; background: #0c5460">  Response 200 DELETE /wd/hub/session/da72c56789ca0ad25d6b9ccf742b1b5a (94ms)</div><div>{ value: <b>null<span style="font-weight:normal;text-decoration:none;font-style:normal"> }</span></b></div></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s2ac1" aria-expanded="false" aria-controls="s2ac1">
+          should add a todo using global element()
+        </button>
+      </h5>
+    </div>
+
+    <div id="s2ac1" class="collapse" aria-labelledby="s2ah1" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Expected elements &lt;#todo-list ul li&gt; count to equal: &#34;5&#34; (29ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Expected element &lt;#todo-list ul li&gt; text to contain: &#34;what is nightwatch?&#34; (38ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Expected elements &lt;#todo-list ul li input:checked&gt; count to equal: &#34;3&#34; (19ms)</div></pre></div></div>
+
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+          </div>
+          </div>
+         </div>
+        </section>
+      </div>
+    </div>
+
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row footerstarbg">
+          <div class="col-md-12">
+            <nav class="footer-box">
+              <div class="footer-links">
+                  <a class="cr" href="https://nightwatchjs.org" target="_blank">© 2022 Nightwatch.js</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
