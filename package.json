@@ -4,7 +4,7 @@
   "description": "Nightwatch tests",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch --reporter html"
+    "test": "nightwatch --env selenium.chrome --reporter html"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "nightwatch": "^2.2.1"
   },
   "devDependencies": {
+    "@nightwatch/selenium-server": "^4.1.2",
     "chromedriver": "^102.0.0",
     "geckodriver": "^3.0.1"
   }

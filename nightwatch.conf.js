@@ -78,6 +78,43 @@ module.exports = {
       }
     },
     
+    //////////////////////////////////////////////////////////////////////////////////
+    // Configuration for when using the Selenium service, either locally or remote,  |
+    //  like Selenium Grid                                                           |
+    //////////////////////////////////////////////////////////////////////////////////
+    selenium_server: {
+      // Selenium Server is running locally and is managed by Nightwatch
+      // More info on setting up Selenium Server locally:
+      // https://nightwatchjs.org/guide/getting-started/installation.html#install-selenium-server
+      selenium: {
+        start_process: true,
+        port: 4444,
+        server_path: '', // Leave empty if @nightwatch/selenium-server is installed
+        command: 'standalone', // Selenium 4 only
+        cli_args: {
+          // 'webdriver.gecko.driver': '',
+          // 'webdriver.chrome.driver': '',
+          // 'webdriver.edge.driver': './path/to/msedgedriver',
+          // 'webdriver.ie.driver': ''
+        }
+      },
+      webdriver: {
+        start_process: false,
+        default_path_prefix: '/wd/hub'
+      }
+    },
+    
+    'selenium.chrome': {
+      extends: 'selenium_server',
+      desiredCapabilities: {
+        browserName: 'chrome',
+        'goog:chromeOptions': {
+          args: ["--headless"],
+          w3c: true
+        }
+      }
+    },
+    
   }
 };
 
