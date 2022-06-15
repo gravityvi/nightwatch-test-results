@@ -32,7 +32,7 @@ jobs:
         if: always()
         uses: peaceiris/actions-gh-pages@v3.7.3
         with: 
-          personal_token: $${{secrets.PERSONAL_TOKEN}}
+          personal_token: $${{secrets.GITHUB_TOKEN}}
           publish_dir: 'tests_output/'
           keep_files: true
           user_name: "gravityvi"
