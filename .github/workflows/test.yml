@@ -18,14 +18,11 @@ jobs:
       - name: Run Nightwatch tests
         continue-on-error: true
         run: npm test
-      - name: copy test execution results
-        run: |
-          mkdir public
-          cp -r tests_output/nightwatch-html-report public
       - name: "Publish test results"
         uses: peaceiris/actions-gh-pages@v3.7.3
         with: 
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: './tests_output/nightwatch-html-report'
           keep_files: true
           user_name: "gravityvi"
           user_email: "ravisawlani04@gmail.com"
