@@ -25,7 +25,7 @@ jobs:
       - name: "Publish test results"
         uses: peaceiris/actions-gh-pages@v3.7.3
         with: 
-          github_token: $${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           keep_files: true
           user_name: "gravityvi"
           user_email: "ravisawlani04@gmail.com"
