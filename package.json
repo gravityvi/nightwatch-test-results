@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/gravityvi/nightwatch-test-results#readme",
   "dependencies": {
-    "nightwatch": "https://github.com/nightwatchjs/nightwatch.git"
+    "nightwatch": "^2.2.1"
   },
   "devDependencies": {
     "geckodriver": "^3.0.1"
