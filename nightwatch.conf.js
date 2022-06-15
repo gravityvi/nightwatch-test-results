@@ -45,33 +45,45 @@ module.exports = {
         browserName: 'firefox'
       },
       
-      webdriver: {
-        start_process: true,
-        server_path: ''
-      },
-      
     },
     
-    firefox: {
+    /////////////////////////////////////////////////////////////////////////////////////////////
+    // Configuration for using remote Selenium service or a cloud-based testing provider.       |
+    //                                                                                          |
+    // If you are using cloud providers such as BrowserStack, CrossBrowserTesting, LambdaTests, |
+    // or SauceLabs, please set the username and access key by setting the below environment    |
+    // variables:                                                                               |
+    // - REMOTE_USERNAME                                                                        |
+    // - REMOTE_ACCESS_KEY                                                                      |
+    // (.env files are supported)                                                               |
+    /////////////////////////////////////////////////////////////////////////////////////////////
+    remote: {
+      // Info on all the available options with "selenium":
+      // https://nightwatchjs.org/guide/configuration/settings.html#selenium-server-settings
+      selenium: {
+        start_process: false,
+        server_path: '',
+        host: 'localhost',
+        port: 4444
+      },
+
+
+      webdriver: {
+        keep_alive: true,
+        start_process: false
+      }
+    },
+    
+    'remote.firefox': {
+      extends: 'remote',
       desiredCapabilities: {
         browserName: 'firefox',
-        alwaysMatch: {
-          acceptInsecureCerts: true,
-          'moz:firefoxOptions': {
-            args: [
-              // '-headless',
-              // '-verbose'
-            ]
-          }
+        'moz:firefoxOptions': {
+          args: [
+            // '-headless',
+            // '-verbose'
+          ]
         }
-      },
-      webdriver: {
-        start_process: true,
-        server_path: '',
-        cli_args: [
-          // very verbose geckodriver logs
-          // '-vv'
-        ]
       }
     },
     
