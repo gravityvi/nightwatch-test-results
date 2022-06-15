@@ -4,7 +4,7 @@
   "description": "Nightwatch tests",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch --env remote.firefox --reporter html"
+    "test": "nightwatch --reporter html"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "nightwatch": "^2.2.1"
   },
   "devDependencies": {
+    "chromedriver": "^102.0.0",
     "geckodriver": "^3.0.1"
   }
 }
